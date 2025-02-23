@@ -1,1 +1,3 @@
 # LiDAR_canopy_height_outlier_detection
+In this project, I developed a machine learning framework to detect outliers in canopy height estimates from GEDI LiDAR data. The model was a multimodal convolutional neural network that utilized both GEDI data and ancillary data from NASADEM as input to predict whether GEDI canopy height estimates contained outliers. To generate the training dataset, LVIS LiDAR data was used as ground truth. Additionally, a SHAP analysis was performed to identify the most influential input features affecting the model’s predictions.  
+For the visual outputs of this project, visit [my website](https://mo-agh.github.io/projects/).
